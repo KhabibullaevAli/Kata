@@ -5,7 +5,8 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println(calc("II - V"));
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        System.out.println(calc(br.readLine()));
     }
     public static String calc(String input) throws Exception {
         ArrayList<String> strings =new ArrayList<>();
